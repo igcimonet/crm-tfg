@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-container {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 1%;
+}
+
+h1 {
+    margin-bottom: 1%;
+}
+
+/*+++++++++++++++++++++++++++*/
+
+.form-align {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 1%;
+}
+
+.form-container {
+    background-color: #d0d0d0;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+/*+++++++++++++++++++++++++++*/
+
+.name-container {
+    margin: 3px;
+}
+
+.product-form {
+    margin: 3px;
+}
+
+/*+++++++++++++++++++++++++++*/
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}

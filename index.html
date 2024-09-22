@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <meta name="autor", content="ignacio" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <header class="title-container">
+            <h1>CRM</h1>
+        </header>
+        <div class="form-align">
+            <div class="form-container">
+                <section class="name-container">
+                    <label>Nombre </label>
+                    <input Value="Carlos Gomez" readonly/>
+                    <br>
+                    <label>Id Cliente </label>
+                    <input Value="1234" readonly/>
+                </section>
+    
+                <form class="product-form">
+                    <label>Producto</label>
+                    <br>
+                    <input type="text" Value="Internet" readonly/>
+                    <br>
+                    <label>Velocidad</label>
+                    <br>
+                    <input type="text" Value="500" readonly/>
+                    <label>MB</label>
+                    <br>
+                    <label>Fecha alta</label>
+                    <br>
+                    <input type="date" value="2023-09-09" min="2018-01-01" max="2018-12-31" readonly/>
+                </form>
+                <div class="button-container">
+                    <button onclick = "window.location.href='negociarProducto.html';">Cambiar</button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
